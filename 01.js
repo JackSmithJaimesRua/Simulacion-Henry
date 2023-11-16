@@ -12,7 +12,20 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  let soloNumeros = [];
+  let infinito = -Infinity;
+  for(let i = 0; i < array.length; i++){
+    if(array[i] > infinito){
+    soloNumeros.push(array[i])  
+  }
 }
+return soloNumeros;
+}
+
+let ejemplo1 = [1, 'Henry' ,2];
+let resultado1 = soloNumeros(ejemplo1);
+console.log(resultado1);
+
 
 // No modifiques nada debajo de esta linea //
 
