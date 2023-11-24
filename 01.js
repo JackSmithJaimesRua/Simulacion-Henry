@@ -20,13 +20,12 @@ function soloNumeros(array) {
     }
   }
   return soloNumeros;
-  
+
 }
 
 let ejemplo1 = [1, 'Henry' ,2];
 let resultado1 = soloNumeros(ejemplo1);
 console.log(resultado1);
-
 
 // No modifiques nada debajo de esta linea //
 
