@@ -14,12 +14,13 @@ function soloNumeros(array) {
 
   let soloNumeros = [];
   let infinito = -Infinity;
-  for(let i = 0; i < array.length; i++){
+  for (let i = 0; i < array.length; i++){
     if(array[i] > infinito){
-    soloNumeros.push(array[i])  
+      soloNumeros.push(array[i])
+    }
   }
-}
-return soloNumeros;
+  return soloNumeros;
+  
 }
 
 let ejemplo1 = [1, 'Henry' ,2];
@@ -31,3 +32,6 @@ console.log(resultado1);
 
 
 module.exports = soloNumeros
+
+
+
